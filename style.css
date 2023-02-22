@@ -1,0 +1,120 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1534530236704-33735c0dd55b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+li {
+  float: left;
+  border-left: 0.5px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li b {
+  font-size: 20px;
+  display: block;
+  color: darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: orange;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+.sactive {
+  background-color: white;
+}
+.first {
+  margin-top: 30px;
+  padding-left: 8px;
+  height: 100%;
+  text-align: center;
+}
+ik {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+img {
+  margin: 5px 10px 10px;
+
+  text-align: left;
+  border-radius: 100px;
+  float: right;
+}
+.third img {
+  margin: 5px 10px 10px;
+  text-align: right;
+  border-radius: 100px;
+  float: left;
+}
+
+.second {
+  text-align: right;
+  padding-top: 6.5%;
+  padding-left: 8px;
+}
+
+.third {
+  text-align: left;
+  padding-top: 6.5%;
+  padding: 8px;
+}
+.fourth {
+  padding-top: 1.5%;
+  padding-left: 8px;
+  padding: 8px;
+}
+.fourth column {
+  float: left;
+  width: 40%;
+  height: 30%;
+  padding: 30px;
+}
+.fourth img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 110%;
+  margin-top: -30%;
+}
+footer {
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  background: #6cf;
+}
